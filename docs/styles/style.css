@@ -14,7 +14,7 @@ html {
 
 nav {
     display: grid;
-    grid-template-columns: 75px repeat(5, 1fr);
+    grid-template-columns: 75px repeat(6, 1fr);
 }
 
 nav a, nav button, footer .links a {
