@@ -2,49 +2,49 @@
   {
     "name": "apostle_spotlight",
     "page": "ice/apostle_spotlight/apostle_spotlight/apostles.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A page showcasing the first presidency and twelve apostles images. Created to practice using html, grid styles, and follow a design."
   },
   {
     "name": "favorite_devo",
     "page": "ice/favorite_devo/favorite_devo/favdevo.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A devotional favorites page to practice making forms and tables in html and CSS to display and prepare to collect data."
   },
   {
     "name": "gallery",
     "page": "ice/gallery/gallery.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "An image gallery with big and small thumbnails. It was used to test changing file and image sizes."
   },
   {
     "name": "grid_flags",
     "page": "ice/grid_flags/flags.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A CSS grid flags display to practice using css grid alignment properities in different layouts."
   },
   {
     "name": "positioning",
     "page": "ice/positioning/positioning.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A page to practice using css grid alignment properities in different layouts."
   },
   {
     "name": "prophet_cards",
     "page": "ice/prophet_cards/prophet_cards/oaks.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A card-style project featuring a prophets profile and imagery to practice basic html and css and follow a simple wireframe design."
   },
   {
     "name": "signup",
     "page": "ice/signup/signup.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A signup form to practice CSS and experiment with JS."
   },
   {
     "name": "valentines",
     "page": "ice/valentines/index.html",
-    "image": "folder.png",
+    "image": "images/folder.png",
     "description": "A valentines themed page to practice designing css without changing the html."
   }
 ]
