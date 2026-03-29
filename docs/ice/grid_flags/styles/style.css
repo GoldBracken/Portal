@@ -1,0 +1,261 @@
+/*
+
+author: Austin Brackney
+Class: WDD 130
+Date: Feb 17 2026
+
+*/
+
+body {
+        margin: 0;
+        font-family: 'Helvetica Neue', sans-serif;
+        background-color: gray;
+    }
+
+    header {
+        background-color: #222;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        margin: 0;
+        font-weight: 400;
+    }
+    main {
+        display: grid;
+        grid-template-columns: .1fr .1fr 1fr .1fr;
+        margin-top: 20px;
+    }
+
+    hr {
+        width: 100%;
+        grid-column: 1 / 5;
+    }
+
+    h2 {
+        grid-column: 2/3;
+    }
+
+    div:hover {
+        transform: scale(1.1);
+    }
+
+    #blue {
+        background: blue;
+        grid-column: 1 / 2;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #white {
+        background: white;
+        grid-column: 2 / 4;
+    }
+
+    #red {
+        background: red;
+        grid-column: 1 / 4;
+    }
+
+    #dred1, #dred2, #dred3, #dred4 {
+        background: red;
+    }
+
+    #dred1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #dred2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #dred3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #dred4 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    #fwhite1, #fwhite2, #fwhite3, #fwhite4 {
+        background-color: white;
+    }
+
+    #fwhite1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #fwhite2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #fwhite3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #fwhite4 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    #bgreen{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        background-color: green;
+    }
+
+    #byellow{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-color: yellow;
+    }
+
+    #bred{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-color: red;
+    }
+
+    #igreen{
+        grid-column: 1/2;
+        background-color: green;
+    }
+
+    #iwhite{
+        grid-column: 2/3;
+        background-color: white;
+    }
+
+    #ired{
+        grid-column: 3/4;
+        background-color: red;
+    }
+
+    #cardrkblue1 {
+        background-color: darkblue;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #carwhite1 {
+        background-color: white;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #cargreen1 {
+        background-color: green;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #caryellow1 {
+        background-color: yellow;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #cardrkblue2 {
+        background-color: darkblue;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #carwhite2 {
+        background-color: white;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    #cargreen2 {
+        background-color: green;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    #caryellow2 {
+        background-color: yellow;
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    #chile {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 200px;
+        width: 300px;
+    }
+
+    #denmark {
+        display: grid;
+        grid-template-columns: 1fr 35px 2fr;
+        grid-template-rows: 1fr 35px 1fr;
+        height: 200px;
+        width: 300px;
+        background-color: white;
+    }
+
+    #finland {
+        display: grid;
+        grid-template-columns: 1fr 45px 2fr;
+        grid-template-rows: 1fr 45px 1fr;
+        height: 200px;
+        width: 300px;
+        background-color: blue;
+    }
+
+    #benin {
+        display: grid;
+        grid-template-columns: 5fr 8fr;
+        grid-template-rows: 1fr 1fr;
+        height: 200px;
+        width: 300px;
+    }
+
+    #italy {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 200px;
+        width: 300px;
+    }
+
+    #car {
+        display: grid;
+        grid-template-columns: 1fr 50px 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        height: 200px;
+        width: 300px;
+        background-color: red;
+    }
+
+    .star {
+        width: 70px;
+        aspect-ratio: 1;
+        background: white;
+        clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+    }
+
+    .carstar {
+        width: 50px;
+        aspect-ratio: 1;
+        background: yellow;
+        clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+        transform: translate(20px);
+    }

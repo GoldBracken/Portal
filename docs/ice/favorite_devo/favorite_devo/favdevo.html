@@ -1,0 +1,68 @@
+<!--
+Author: Austin Brackney
+Class: WDD 130
+Copyright/Date 9 Feb 2026
+
+Source/Works Cited:
+[0] https://alveyworld.github.io/wdd130/ice/favorite_devo.zip
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!--In the main section add to the div with the class name content-box. 
+        Write the html code for a table with 4 columns for Speaker, 
+        Title, Location, and Year. Add 3 rows and include appropriate information about your favorite devotional.-->
+        <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Elder Quentin L. Cook</td>
+            <td>His Paths Are Righteous</td>
+            <td>BYU-Idaho I-Center</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>President Alvin F. Meredith III</td>
+            <td>Go and Do Thou Likewise</td>
+            <td>BYU-Idaho I-Center</td>
+            <td>2026</td>
+          </tr>
+          <tr>
+            <td>David Ashby</td>
+            <td>Your Call to Adventure</td>
+            <td>BYU-Idaho I-Center</td>
+            <td>2025</td>
+          </tr>
+        </table>
+        <!--After the table, code a form that will collect the 4 peices of information that could be used to 
+        add another devotional to the table.-->
+        <form action="#">
+          <input type="text" value="" placeholder="Devotional Speaker">
+          <input type="text" value="" placeholder="Devotional Title">
+          <input type="text" value="" placeholder="Devotional Location">
+          <input type="text" value="" placeholder="Devotional Year">
+          <button type="button">Add Devotional</button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

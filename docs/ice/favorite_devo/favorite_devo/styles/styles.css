@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e9e8e8, #0151a2);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-image {
+  background-image: url('../images/icenter.png'); /* Replace with your image */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+}
+
+.content-box {
+  background: radial-gradient(#e9e8e8 40%, #3d7dbc, #0151a2);
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  border: solid;
+  box-shadow: 5px 5px 0px black;
+  min-height: 400px;
+}
+
+table, th, td {
+  border: 1px inset black;
+  justify-self: center;
+  background-image: linear-gradient(#fff535, #fefaad, #fefaad, white);
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  min-height: 400px;
+}
+
+th, td {
+  padding: 25px;
+}
+
+th:hover, td:hover {
+  border-radius: 15px;
+  background: linear-gradient(to bottom, white, #5d9cdc);
+}
+
+form {
+background-color: #2527a0;
+  margin: 30px auto;
+  padding: 30px;
+  width: 9  0%;
+  max-width: 900px;
+}
+
+button {
+  border-radius: 12px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #4a4ae7;
+  background-color: #7a7aff;
+  color: white;
+}
+
+button:hover {
+  opacity: 80%;
+}

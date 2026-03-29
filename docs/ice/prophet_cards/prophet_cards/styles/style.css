@@ -1,0 +1,92 @@
+body {
+    background: #FFECD7;  
+}
+
+#card {
+    border-style: groove;
+    border-color: #5f5fffcc;
+    border-radius: 50px;
+    align-items: center;
+    justify-self: center;
+    width: 500px;
+    height: 700px;
+    background: #499db6;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    grid-row: 1/2;
+    text-align: center;
+    color: #ffe283;
+    transition: transform .5s;
+}
+
+#title:hover {
+    transform: scale(1.1);
+}
+
+#subtitle {
+    grid-row: 2/3;
+    text-align: center;
+    color: #ffe283;
+    transition: transform .5s;
+}
+
+#subtitle:hover {
+    transform: scale(1.05);
+}
+
+#pic {
+    width: 50%;
+    grid-row: 3/4;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    background-color: white;
+    border-color: white;
+    padding: 10px;
+    transition: transform 1s, background-color 1s, border-style 1s, border-width .5s, border-color 1s;
+}
+
+#pic:hover {
+    border-style:outset;
+    border-width: .8em;
+    transform: scale(1.05);
+    border-color: #eeea7e;
+}
+
+#list {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 155px 1fr 120px; 
+    font-size: large;
+    font-weight: 500;
+    grid-row: 4/5;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#list li{
+    grid-column: 2/3;
+    transition: transform .5s, color 1s;
+}
+
+#list li:hover{
+    transform: scale(1.1);
+    color: #eeea7e;
+}
+
+#quote {
+    font-family: 'Times New Roman', Times, serif;
+    grid-row: 5/6;
+    text-align: center;
+    color: gold;
+}
+
+#quote:hover {
+    font-weight: bolder;
+}

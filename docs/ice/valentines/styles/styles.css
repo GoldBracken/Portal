@@ -1,0 +1,97 @@
+/*
+
+Author: Austin Brackney
+Class: WDD 130
+Date: 11 Feb 2026
+
+Citations:
+[0]
+[1] VS Code 
+
+*/
+
+body {
+    background-color: #ffc0cb9b;
+}
+
+header {
+    background-color: #fb36d3c1;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    justify-items: center;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;
+    color: #ffd9b8;    
+    left: 0;
+}
+
+nav:hover {
+    background-color: #fd7ae3c1;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 15px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #fe26d3;
+}
+
+main {
+    justify-items: center;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: scale(2) translate(-25%, 25%);
+    color: #a5ffff;
+    max-block-size: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    display: inline-flexbox;
+    justify-items: center;
+    width: 90%;
+    height: 200px;
+    background-color: #fd7ae346;
+}
+
+section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+section p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    color: #c11861;
+    background-color: #ffe9c8c1;
+    position: sticky;
+    top: 0;  
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;
+}

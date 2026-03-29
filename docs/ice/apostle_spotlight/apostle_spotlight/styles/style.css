@@ -1,0 +1,74 @@
+.card {
+    justify-self: center;
+    border-radius: 20px;
+    border: solid;
+    border-width: 10px;
+    background-image: url(/apostle_spotlight/images/christus.webp);
+    background-size: cover;
+    background-position: -200px;
+    width: 70%;
+    height: 95vh;
+    display: grid;
+    grid-template-rows: 10% 25% 10% 1fr;
+    justify-items: center;
+}
+
+#presidency-title {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#quorum-title {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#firstP {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+    justify-items: center;
+    align-items: center;
+    transform: translateX(-20px);
+}
+
+.pres {
+    border: solid;
+    border-width: 5px;
+    border-color: #ffff6de0;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.q12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+}
+
+.quorum {
+    border: solid;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+}
+
+.pres:hover,.quorum:hover {
+    transform: scale(1.1);
+    animation-name: changeBorderColor;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes changeBorderColor {
+  0% {border-color: white;}
+  50% {border-color: rgb(244, 244, 16);}
+  100% {border-color: white;}
+}
