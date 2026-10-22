@@ -1,20 +1,3 @@
-var emailList = [];
-
-// function for showing a message when incorrect format is added to the forms
-function formSubmit() {
-    var email = document.getElementById('contact-email').value;
-    emailList.push(email);
-    var alert = document.getElementById('invalid');
-    
-    if(!email.includes("@") || !email.includes(".")) {
-        alert.innerHTML = "<p for='contact-email' id='invalid'>Incorrect email format. Please enter a valid email.</p>";
-    }
-    else {
-        document.getElementById('contact-email').value = "";
-        alert.innerHTML = "<p for='contact-email' id='invalid'></p>";
-    }
-}
-
 // function to create a table with links to ice projects
 function createTable() {
     var table = document.getElementById('ice');
