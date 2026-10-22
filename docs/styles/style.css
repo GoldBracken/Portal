@@ -96,12 +96,12 @@ section#explorer {
     grid-template-columns: repeat(4, 1fr);
 }
 
-#table-images img {
-    width: 300px;
-}
-
 table, th, td {
     text-align: center;
+}
+
+#table-images img {
+    width: 300px;
 }
 
 .container img {
