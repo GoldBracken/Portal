@@ -98,6 +98,7 @@ section#explorer {
 
 table, th, td {
     text-align: center;
+    font-size: large;
 }
 
 #table-images img {
